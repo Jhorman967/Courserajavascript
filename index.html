@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coursera</title>
+    <style>
+      .row {
+        width: 100%;
+      }
+      h1 {
+        text-align: center;
+      }
+      p {
+        background-color: rgb(150, 146, 146);
+        padding: 2%;
+        font-family: Helvetica;
+        color: white;
+        clear: both;
+      }
+
+      a {
+        text-align: center;
+        clear: left;
+        float: right;
+        width: 17%;
+        height: 18%;
+        border: 1px solid black;
+      }
+
+      .pink {
+        background-color: pink;
+      }
+      .red {
+        background-color: rgb(145, 4, 4);
+      }
+      .yellow {
+        background-color: rgb(243, 180, 85);
+      }
+
+      @media (min-width: 1200px) {
+        .col-lg-4 {
+          float: left;
+        }
+
+        .col-lg-4 {
+          width: 33.33%;
+        }
+      }
+
+      div div div {
+        background-color: rgb(150, 146, 146);
+        width: 90%;
+        height: 150px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5%;
+        font-family: Helvetica;
+        color: white;
+        clear: both;
+        border: 2px solid black;
+      }
+
+      @media (min-width: 992px) and (max-width: 1199px) {
+        .col-md-6 {
+          float: left;
+        }
+        .col-md-6 {
+          width: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Our Menu</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div>
+          <a class="pink">chicken</a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            nulla, voluptatum quod facere nostrum harum sunt praesentium a ad,
+            quia aliquid non sapiente, illo asperiores reiciendis blanditiis
+            eligendi. Qui, possimus.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div>
+          <a class="red">beef</a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            nulla, voluptatum quod facere nostrum harum sunt praesentium a ad,
+            quia aliquid non sapiente, illo asperiores reiciendis blanditiis
+            eligendi. Qui, possimus.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div>
+          <a class="yellow">Sushi</a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            nulla, voluptatum quod facere nostrum harum sunt praesentium a ad,
+            quia aliquid non sapiente, illo asperiores reiciendis blanditiis
+            eligendi. Qui, possimus.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
